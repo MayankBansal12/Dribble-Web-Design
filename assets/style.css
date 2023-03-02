@@ -64,7 +64,7 @@ header{
 /* Nav List */
 .list-item{
     margin-bottom: 1.5rem;
-    font-size: 1.25rem;
+    font-size: 1.1rem;
 }
 .nav_link{
     color: var(--color-text);
@@ -76,10 +76,6 @@ header{
 .menu{
     font-size: 1.25rem;
     cursor: pointer;
-}
-/* Helper class for menu */
-.show{
-    right: 0;
 }
 /* Media Query to load menu icon */
 @media screen and (max-width:768px) {
@@ -97,7 +93,10 @@ header{
         border-left: 1px solid var(--color-text);
     }
 }
-
+/* Helper class for menu */
+.show{
+    right: 0;
+}
 
 /* Main Home */
 .home{
